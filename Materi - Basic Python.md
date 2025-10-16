@@ -8,7 +8,7 @@ Di Python, variabel digunakan untuk menyimpan data, dan tipe data menentukan jen
 
 - **int:** Bilangan bulat, contoh: `x = 5`
 - **float:** Bilangan desimal, contoh: `y = 3.14`
-- **str:** String atau teks, contoh: `name = "Candra"`
+- **str:** String atau teks, contoh: `name = "Ardini"`
 - **bool:** Boolean, dengan nilai `True` atau `False`
 
 _Contoh:_

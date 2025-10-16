@@ -1,8 +1,8 @@
-# 2. Basic Python Programming
+# 1. Basic Python Programming
 
 Python adalah bahasa pemrograman yang mudah dipelajari dan digunakan, serta banyak diaplikasikan di berbagai bidang, mulai dari pengembangan web hingga analisis data. Berikut adalah konsep dasar Python:
 
-## 2.1. Variabel dan Tipe Data
+## 1.1. Variabel dan Tipe Data
 
 Di Python, variabel digunakan untuk menyimpan data, dan tipe data menentukan jenis nilai yang dapat disimpan. Beberapa tipe data dasar di Python adalah:
 
@@ -16,11 +16,11 @@ _Contoh:_
 ```python
 x = 5           # int
 y = 3.14        # float
-name = "Candra" # str
+name = "Ardini" # str
 is_student = True # bool
 ```
 
-## 2.2. Struktur Kontrol
+## 1.2. Struktur Kontrol
 
 ### a. If-Else Statement
 
@@ -58,7 +58,7 @@ else:
       count += 1
   ```
 
-## 2.3. Fungsi
+## 1.3. Fungsi
 
 Fungsi adalah blok kode yang dapat digunakan kembali.
 
@@ -68,17 +68,17 @@ _Contoh:_
 def greet(name):
     print(f"Hello, {name}!")
 
-greet("Candra")
+greet("Ardini")
 ```
 
-## 2.4. List dan Dictionary
+## 1.4. List dan Dictionary
 
 - **List:** Kumpulan nilai yang dapat diakses dengan indeks.
 
   _Contoh:_
 
   ```python
-  fruits = ["apple", "banana", "cherry"]
+  fruits = ["apple", "banana", "watermelon"]
   print(fruits[0])  # Output: apple
   ```
 
@@ -87,11 +87,11 @@ greet("Candra")
   _Contoh:_
 
   ```python
-  person = {"name": "Candra", "age": 21}
-  print(person["name"])  # Output: Candra
+  person = {"name": "Ardini", "age": 21}
+  print(person["name"])  # Output: Ardini
   ```
 
-## 2.5. Input dan Output
+## 1.5. Input dan Output
 
 - **Input:** Mengambil data dari pengguna.
 

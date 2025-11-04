@@ -34,30 +34,32 @@ Tanpa data cleaning, hasil analisis bisa menyesatkan — seperti membuat kesimpu
 
 ## Langkah-langkah Umum Data Cleaning
 
-1. Menilai kualitas data — melihat tipe data dan jumlah nilai kosong.  
-2. Menghapus data yang tidak relevan — misalnya kolom yang tidak digunakan.  
-3. Menangani nilai kosong (*NaN*) — bisa dihapus atau diisi.  
-4. Menghapus data duplikat — agar data tidak dihitung dua kali.  
-5. Menstandarkan format — misalnya semua huruf jadi kapital.  
-6. Menangani outlier — nilai yang terlalu jauh dari normal.
+1. Menilai kualitas data: melihat tipe data dan jumlah nilai kosong.  
+2. Menghapus data yang tidak relevan: misalnya kolom yang tidak digunakan.  
+3. Menangani nilai kosong (*NaN*): bisa dihapus atau diisi.  
+4. Menghapus data duplikat: agar data tidak dihitung dua kali.  
+5. Menstandarkan format: misalnya semua huruf jadi kapital.  
+6. Menangani outlier: nilai yang terlalu jauh dari normal.
 
 ---
 
 ## 2. Praktik di Google Colab
 
-Google Colab adalah alat berbasis web untuk menulis dan menjalankan kode Python tanpa instalasi tambahan.
+Google Colab adalah alat berbasis web untuk menulis dan menjalankan kode Python tanpa instalasi tambahan. Pada praktik ini akan digunakan Google Colab untuk menjalankan seluruh proses data cleaning menggunakan pandas. Apabila menggunakan lingkungan kerja lain, pastikan platform tersebut mendukung format .ipynb atau lingkungan Jupyter Notebook agar kode dapat dijalankan dengan benar.
 
 ### a. Buka Google Colab
 1. Buka [https://colab.research.google.com](https://colab.research.google.com)  
-2. Klik **File → Upload Notebook** atau **New Notebook**
+2. Klik **File → New Notebook**
 
 ---
 
 ### b. Instalasi dan Import Library
+Biasanya pandas sudah tersedia di Colab, tapi jika belum:
 ```python
-# Biasanya pandas sudah tersedia di Colab, tapi jika belum:
 !pip install pandas
-
+```
+Import library
+```python
 import pandas as pd
 ```
 ---
@@ -90,34 +92,37 @@ df.describe()
 ---
 
 ### e. Menangani Nilai Kosong (NaN)
+
+Cek ada berapa nilai kosong di data tersebut
 ```python
-# Cek ada berapa nilai kosong di setiap kolom
-print(df.isna().sum())
-
-# Isi nilai kosong dengan teks "Tidak Ada"
-df = df.fillna("Tidak Ada")
-
-# Atau hapus baris yang kosong semua (opsional)
-df = df.dropna(how='all')
-
-# Lihat hasilnya
-df.head()
+df.isnull().sum()
 ```
+Jika ada, lakukan penanganan nilai kosong. Dalam kasus ini, baris dan kolom yang berisi NaN akan dihapus agar bisa diproses lebih lanjut.
+
+Hapus kolom
+```python
+df = df.drop(columns=["Empty1", "Empty2"])
+```
+Hapus baris yang berisi NaN dan lihat hasilnya
+```python
+df = df.dropna()
+df
+```
+Cek lagi apakah masih ada missing value?
 
 ---
 
 ### f. Menghapus Data Duplikat
+
+Cek apakah ada duplikat
 ```python
-# Cek apakah ada duplikat
-print("Jumlah data duplikat sebelum dihapus:", df.duplicated().sum())
-
-# Hapus duplikat
-df = df.drop_duplicates()
-
-# Lihat hasilnya
-print("Jumlah data duplikat setelah dihapus:", df.duplicated().sum())
-df.head()
+df.duplicated().sum())
 ```
+Hapus duplikat
+```python
+df = df.drop_duplicates()
+```
+Cek lagi apakah masih ada data duplikat?
 
 ---
 

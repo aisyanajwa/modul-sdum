@@ -14,7 +14,7 @@ Melalui Looker Studio, data dari file seperti CSV, Excel, atau Google Sheets dap
 ---
 
 ## 2. Persiapan Data
-1. Siapkan file hasil data cleaning bernama **Data Ritel.csv**.  
+1. Siapkan file hasil data cleaning bernama **Data Ritel CLean.csv**.  
 2. Pastikan file sudah tersimpan di Google Drive atau Google Sheets.  
 3. Kolom minimal yang diperlukan:
    - `Order Date`  
@@ -32,7 +32,7 @@ Melalui Looker Studio, data dari file seperti CSV, Excel, atau Google Sheets dap
 1. Buka [https://lookerstudio.google.com](https://lookerstudio.google.com).  
 2. Klik **Blank Report (Laporan Kosong)** untuk membuat dashboard baru.  
 3. Pilih **Add Data (Tambahkan Data)** → pilih **Google Sheets** atau upload file **CSV**.  
-4. Tambahkan file **Data Ritel.csv** dan klik **Add to Report (Tambahkan ke Laporan)**.
+4. Tambahkan file **Data Ritel Clean.csv** dan klik **Add to Report (Tambahkan ke Laporan)**.
 
 ---
 

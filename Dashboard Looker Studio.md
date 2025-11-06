@@ -1,4 +1,4 @@
-# Modul Praktik: Membuat Dashboard Penjualan dengan Google Looker Studio
+# Membuat Dashboard Penjualan dengan Google Looker Studio
 ________________________________________
 
 ## 1. Pendahuluan

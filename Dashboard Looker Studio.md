@@ -23,9 +23,8 @@ Dashboard biasanya berisi:
 ---
 
 ## 2. Persiapan Data
-1. Siapkan file hasil data cleaning bernama **Data Ritel CLean.csv**.  
-2. Pastikan file sudah tersimpan di Google Drive atau Google Sheets.  
-3. Kolom minimal yang diperlukan:
+1. Siapkan file hasil data cleaning bernama **Data Ritel CLean.csv**.   
+2. Kolom minimal yang diperlukan:
    - `Order Date`  
    - `Region`  
    - `Category`  
@@ -40,7 +39,7 @@ Dashboard biasanya berisi:
 ## 3. Membuka Looker Studio
 1. Buka [https://lookerstudio.google.com](https://lookerstudio.google.com).  
 2. Klik **Blank Report (Laporan Kosong)** untuk membuat dashboard baru.  
-3. Pilih **Add Data (Tambahkan Data)** → pilih **Google Sheets** atau upload file **CSV**.  
+3. Pilih **Add Data (Tambahkan Data)** → pilih upload file **CSV**.  
 4. Tambahkan file **Data Ritel Clean.csv** dan klik **Add to Report (Tambahkan ke Laporan)**.
 
 ---

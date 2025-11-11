@@ -7,9 +7,18 @@ Melalui Looker Studio, data dari file seperti CSV, Excel, atau Google Sheets dap
 
 > ⚠️ Catatan Penting:  
 > Looker Studio hanya dapat digunakan oleh akun Google berusia 18 tahun ke atas.  
-> Jika akun belum memenuhi batas usia:
-> - Gunakan akun sekolah atau kampus (institutional account) yang sudah diverifikasi.  
-> - Gunakan akun Google lain atau buat akun baru dengan tanggal lahir di atas 18 tahun.
+> Jika akun belum memenuhi batas usia, gunakan akun Google lain atau buat akun baru dengan tanggal lahir di atas 18 tahun.
+
+## 1.1 Apa Itu Dashboard
+
+**Dashboard** adalah tampilan visual interaktif yang menampilkan ringkasan data penting dalam bentuk grafik, tabel, dan indikator utama (*key metrics*).  
+Tujuannya adalah membantu pengguna **memantau performa, menganalisis tren, dan membuat keputusan berdasarkan data** secara cepat dan efisien.
+
+Dashboard biasanya berisi:
+- **KPI (Key Performance Indicators):** nilai penting seperti total penjualan, jumlah pelanggan, atau tingkat keuntungan.  
+- **Visualisasi Data:** grafik batang, garis, donat, atau peta untuk menunjukkan pola dan tren.  
+- **Filter atau Kontrol:** fitur untuk memilih periode waktu, wilayah, atau kategori tertentu agar analisis lebih fleksibel.
+
 
 ---
 

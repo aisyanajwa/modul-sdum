@@ -116,7 +116,7 @@ Cek lagi apakah masih ada missing value?
 
 Cek apakah ada duplikat
 ```python
-df.duplicated().sum())
+df.duplicated().sum()
 ```
 Hapus duplikat
 ```python
@@ -130,10 +130,6 @@ Cek lagi apakah masih ada data duplikat?
 ```python
 # Simpan dataset hasil cleaning ke file baru
 df.to_csv("Data Ritel Clean.csv", index=False)
-
-# Download hasilnya
-from google.colab import files
-files.download("Data Ritel CLean.csv")
 ```
 
 

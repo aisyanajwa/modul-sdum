@@ -160,12 +160,4 @@ Dashboard *Superstore Sales Performance* akan menampilkan:
 - Grafik garis tren penjualan tahunan dan bulanan.  
 - Filter interaktif untuk tahun, kategori, dan kota.
 
----
-
-## 7. Catatan Jika Terjadi Error
-Jika muncul pesan “Terjadi error sistem pada Looker Studio”, periksa hal berikut:
-- Pastikan koneksi internet stabil.  
-- Cek sumber data di menu **Resource → Manage Added Data Sources (Kelola Sumber Data Tambahan)**.  
-- Pastikan tidak ada kolom dihapus atau diubah namanya di Google Sheets.
-
 ________________________________________
